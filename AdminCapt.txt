@@ -1,0 +1,53 @@
+﻿  #########################################
+ ###########################################
+###### Server Captcha: 23.100.26.166 ########
+ ###########################################
+  #########################################
+
+#####################
+http://23.100.26.166/clearTask.php
+--clear = off,on
+--method = recaptcha,hcaptcha
+
+>>>>http://23.100.26.166/clearTask.php?method=recaptcha&clear=on
+
+#####################
+http://23.100.26.166/checkthread.php
+--key = {key}
+--method = recaptcha,hcaptcha
+
+>>>>http://23.100.26.166/checkthread.php?method=recaptcha&key={key}
+
+#####################
+http://23.100.26.166/checkthread.php
+--method = recaptcha,hcaptcha
+
+>>>>http://23.100.26.166/checkallthread.php?method=recaptcha
+
+#####################
+http://23.100.26.166/updatekey.php
+--action = admin
+--method = recaptcha,hcaptcha
+
+>>>>http://23.100.26.166/updatekey.php?method=recaptcha&action=admin
+
+#####################
+http://23.100.26.166/in.php
+--key = {key}
+--googlekey = {googlekey}
+--pageurl = {pageurl}
+--method = recaptcha,hcaptcha
+
+>>>>http://23.100.26.166/in.php?method=recaptcha&key={key}&googlekey={&googlekey=}&pageurl={pageurl}
+
+#####################
+http://23.100.26.166/res.php
+--key = {key}
+--id = {id}(id task tồn tại trong vòng 2 phút được tạo từ in.php)
+--method = recaptcha,hcaptcha
+
+>>>>http://23.100.26.166/res.php?method=recaptcha&key={key}&id={id}
+
+#####################
+http://23.100.26.166
+#####################
